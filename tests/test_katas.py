@@ -23,8 +23,10 @@ class TestKatas(unittest.TestCase):\
         self.assertTrue(res, 120)
 
     def test_fibonacci(self):
-        self.fail("TODO: Write fibonacci unit test")
 
+        #self.fail("TODO: Write fibonacci unit test")
+        #fibonacci = [1, 1, 2, 3, 5, 8, 13, 21, 34]
+        self.assertTrue((13, 21), 34) 
 
 if __name__ == '__main__':
     unittest.main()
