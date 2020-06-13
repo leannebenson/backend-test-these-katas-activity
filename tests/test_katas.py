@@ -1,13 +1,17 @@
 import unittest
 import katas
+#from calculator import calculator
 
+# self.calculator = Calculator()
+class TestKatas(unittest.TestCase):\
 
-class TestKatas(unittest.TestCase):
     def test_add(self):
-        self.fail("TODO: Write add unit test")
+        #self.fail("TODO: Write add unit test")
+        self.assertEqual((1 + 2), 3)
 
     def test_multiply(self):
         self.fail("TODO: Write multiply unit test")
+        #self.assertEqual(self.calculator.multiply(3, 7), 21)
 
     def test_power(self):
         self.fail("TODO: Write power unit test")
