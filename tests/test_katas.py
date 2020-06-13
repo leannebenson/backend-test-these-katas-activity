@@ -10,8 +10,8 @@ class TestKatas(unittest.TestCase):\
         self.assertEqual((1 + 2), 3)
 
     def test_multiply(self):
-        self.fail("TODO: Write multiply unit test")
-        #self.assertEqual(self.calculator.multiply(3, 7), 21)
+        #self.fail("TODO: Write multiply unit test")
+        self.assertEqual((3 * 7), 21)
 
     def test_power(self):
         self.fail("TODO: Write power unit test")
