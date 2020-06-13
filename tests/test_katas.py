@@ -18,7 +18,9 @@ class TestKatas(unittest.TestCase):\
         self.assertTrue((3, 3),[27])
 
     def test_factorial(self):
-        self.fail("TODO: Write factorial unit test")
+        #self.fail("TODO: Write factorial unit test")
+        res = 5
+        self.assertTrue(res, 120)
 
     def test_fibonacci(self):
         self.fail("TODO: Write fibonacci unit test")
