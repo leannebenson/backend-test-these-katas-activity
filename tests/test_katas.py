@@ -14,7 +14,8 @@ class TestKatas(unittest.TestCase):\
         self.assertEqual((3 * 7), 21)
 
     def test_power(self):
-        self.fail("TODO: Write power unit test")
+        #self.fail("TODO: Write power unit test")
+        self.assertTrue((3, 3),[27])
 
     def test_factorial(self):
         self.fail("TODO: Write factorial unit test")
